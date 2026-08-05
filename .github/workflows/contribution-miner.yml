@@ -1,0 +1,218 @@
+name: Contribution Mining Animation
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  build-miner:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install Python packages
+        run: |
+          python -m pip install --upgrade pip
+          pip install pillow requests
+
+      - name: Generate mining animation from real GitHub contributions
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_USER: ponugotiuma
+        run: |
+          cat > build_miner.py <<'PY'
+          import os
+          import requests
+          from datetime import date, timedelta
+          from PIL import Image, ImageDraw
+
+          USER = os.environ["GITHUB_USER"]
+          TOKEN = os.environ["GITHUB_TOKEN"]
+
+          # GitHub's profile graph is a 53-week x 7-day calendar.
+          end = date.today()
+          start = end - timedelta(days=364)
+
+          query = """
+          query($login:String!, $from:DateTime!, $to:DateTime!) {
+            user(login:$login) {
+              contributionsCollection(from:$from, to:$to) {
+                contributionCalendar {
+                  totalContributions
+                  weeks {
+                    contributionDays {
+                      date
+                      contributionCount
+                      color
+                  }
+                }
+              }
+            }
+          }
+          """
+
+          variables = {
+              "login": USER,
+              "from": f"{start.isoformat()}T00:00:00Z",
+              "to": f"{end.isoformat()}T23:59:59Z",
+          }
+
+          response = requests.post(
+              "https://api.github.com/graphql",
+              json={"query": query, "variables": variables},
+              headers={
+                  "Authorization": f"bearer {TOKEN}",
+                  "Accept": "application/vnd.github+json",
+              },
+              timeout=30,
+          )
+          response.raise_for_status()
+          payload = response.json()
+
+          if "errors" in payload:
+              raise RuntimeError(payload["errors"])
+
+          calendar = payload["data"]["user"]["contributionsCollection"]["contributionCalendar"]
+          weeks = calendar["weeks"]
+
+          # Native GitHub-like colors.
+          LEVELS = ["#161b22", "#0e4429", "#006d32", "#26a641", "#39d353"]
+
+          cells = []
+          for x, week in enumerate(weeks):
+              for y, day in enumerate(week["contributionDays"]):
+                  count = day["contributionCount"]
+                  level = 0 if count == 0 else 1 if count <= 2 else 2 if count <= 5 else 3 if count <= 9 else 4
+                  cells.append({
+                      "x": x,
+                      "y": y,
+                      "count": count,
+                      "level": level,
+                      "color": LEVELS[level],
+                  })
+
+          # Keep the generated image compact enough for a GitHub README.
+          CELL = 11
+          GAP = 3
+          LEFT = 24
+          TOP = 28
+          WIDTH = LEFT + len(weeks) * (CELL + GAP) + 20
+          HEIGHT = TOP + 7 * (CELL + GAP) + 30
+
+          # Build frames: the miner walks through every contribution cell.
+          # Green cells are collectibles; empty cells become rocks.
+          targets = [c for c in cells if c["level"] > 0]
+          if not targets:
+              targets = cells[:1]
+
+          # Sort in the same left-to-right, top-to-bottom order as the graph.
+          targets.sort(key=lambda c: (c["x"], c["y"]))
+
+          frames = []
+          # Use a moderate number of frames to keep the GIF small.
+          step = max(1, len(targets) // 80)
+          path = targets[::step]
+
+          for frame_no, target in enumerate(path):
+              im = Image.new("RGB", (WIDTH, HEIGHT), "#0d1117")
+              d = ImageDraw.Draw(im)
+
+              d.text((LEFT, 8), f"{USER} • Contribution Mine", fill="#e6edf3")
+
+              for c in cells:
+                  x = LEFT + c["x"] * (CELL + GAP)
+                  y = TOP + c["y"] * (CELL + GAP)
+
+                  if c["level"] == 0:
+                      # White/grey block = rock.
+                      d.rounded_rectangle(
+                          (x, y, x + CELL, y + CELL),
+                          radius=2,
+                          fill="#f0f6fc",
+                      )
+                  else:
+                      # Real contribution level = green collectible.
+                      d.rounded_rectangle(
+                          (x, y, x + CELL, y + CELL),
+                          radius=2,
+                          fill=c["color"],
+                      )
+
+              # Mark previously collected real contribution cells.
+              for c in path[:frame_no]:
+                  x = LEFT + c["x"] * (CELL + GAP)
+                  y = TOP + c["y"] * (CELL + GAP)
+                  d.rectangle((x + 2, y + 2, x + CELL - 2, y + CELL - 2), fill="#39d353")
+
+              # Miner sprite: head, helmet, body, backpack and hammer.
+              mx = LEFT + target["x"] * (CELL + GAP) - 3
+              my = TOP + target["y"] * (CELL + GAP) - 15
+
+              # Backpack
+              d.rounded_rectangle((mx - 10, my + 9, mx - 1, my + 25), radius=2, fill="#8b5a2b")
+              # Body
+              d.rectangle((mx, my + 9, mx + 12, my + 25), fill="#2f81f7")
+              # Face
+              d.ellipse((mx + 1, my, mx + 14, my + 13), fill="#f2cc8f")
+              # Helmet
+              d.rectangle((mx - 1, my - 2, mx + 15, my + 3), fill="#f0c36a")
+              # Hammer
+              d.line((mx + 11, my + 18, mx + 22, my + 8), fill="#b1bac4", width=2)
+              d.rectangle((mx + 18, my + 5, mx + 25, my + 9), fill="#8b949e")
+
+              # Collect effect on green cells.
+              if target["level"] > 0:
+                  d.rectangle(
+                      (
+                          LEFT + target["x"] * (CELL + GAP) - 2,
+                          TOP + target["y"] * (CELL + GAP) - 2,
+                          LEFT + target["x"] * (CELL + GAP) + CELL + 2,
+                          TOP + target["y"] * (CELL + GAP) + CELL + 2,
+                      ),
+                      outline="#ffffff",
+                      width=2,
+                  )
+
+              frames.append(im)
+
+          # Hold the completed board briefly.
+          for _ in range(6):
+              frames.append(frames[-1].copy())
+
+          out = "contribution-miner.gif"
+          frames[0].save(
+              out,
+              save_all=True,
+              append_images=frames[1:],
+              duration=75,
+              loop=0,
+              optimize=True,
+          )
+
+          print(f"Generated {out} using {calendar['totalContributions']} real contributions.")
+          PY
+
+          python build_miner.py
+
+      - name: Publish animation
+        run: |
+          mkdir -p output
+          cp contribution-miner.gif output/contribution-miner.gif
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add output/contribution-miner.gif
+          git diff --cached --quiet && exit 0
+
+          git commit -m "Update contribution mining animation"
+          git push
