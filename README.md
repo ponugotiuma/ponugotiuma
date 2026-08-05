@@ -42,9 +42,5 @@
   <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=ponugotiuma&layout=compact&hide_border=true" alt="Top Languages"/>
 </p>
 
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=ponugotiuma&theme=green&hide_border=true&ring=00C853&fire=00C853&currStreakLabel=00C853" alt="GitHub Streak"/>
-</p>
-
 <h3 align="center">🚀 AI-Powered Data Analyst | 📊 Data Analytics | 🤖 AI & Automation</h3>
 
