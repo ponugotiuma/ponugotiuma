@@ -35,15 +35,15 @@
 <h3 align="left">📊 GitHub Statistics:</h3>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ponugotiuma&show_icons=true&hide_border=true&count_private=true" alt="GitHub Stats"/>
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=ponugotiuma&show_icons=true&hide_border=true&count_private=true" alt="GitHub Stats"/>
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ponugotiuma&layout=compact&hide_border=true" alt="Top Languages"/>
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=ponugotiuma&layout=compact&hide_border=true" alt="Top Languages"/>
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=ponugotiuma&hide_border=true" alt="GitHub Streak"/>
+  <img src="https://streak-stats.demolab.com?user=ponugotiuma&theme=green&hide_border=true&ring=00C853&fire=00C853&currStreakLabel=00C853" alt="GitHub Streak"/>
 </p>
 
 <h3 align="center">🚀 AI-Powered Data Analyst | 📊 Data Analytics | 🤖 AI & Automation</h3>
