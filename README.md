@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Uma Ponugoti</h1>
-<h3 align="center">Final-year Computer Science Engineering student passionate about Data Analytics & AI. Skilled in Python, SQL, Excel, Power BI, Pandas & Data Visualization.Building AI-powered analytics, automation & data-driven solutions through hands-on projects. Actively learning, building, and preparing for opportunities as an AI-Powered Data Analyst.</h3>
+<h3 align="center">Building AI-powered analytics, automation & data-driven solutions.</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=ponugotiuma&label=Profile%20views&color=0e75b6&style=flat" alt="ponugotiuma" /> </p>
 
