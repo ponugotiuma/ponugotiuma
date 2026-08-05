@@ -17,9 +17,7 @@
 
 <p align="left">
 
-<a href="https://linkedin.com/in/uma ponugoti" target="_blank">
-<img src="https://cdn.simpleicons.org/linkedin/0A66C2" alt="LinkedIn" width="40" height="40"/>
-</a>
+<a href="https://linkedin.com/in/uma ponugoti" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="uma ponugoti" height="30" width="40" /></a>
 
 <a href="https://www.hackerrank.com/uma ponugoti" target="_blank">
 <img src="https://cdn.simpleicons.org/hackerrank/00EA64" alt="HackerRank" width="40" height="40"/>
