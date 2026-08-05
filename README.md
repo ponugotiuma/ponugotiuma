@@ -17,7 +17,7 @@
 
 <p align="left">
 
-<a href="https://www.linkedin.com/in/uma-ponugoti-a7217635b/" target="_blank">
+<a href="https://linkedin.com/in/uma ponugoti" target="_blank">
 <img src="https://cdn.simpleicons.org/linkedin/0A66C2" alt="LinkedIn" width="40" height="40"/>
 </a>
 
