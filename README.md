@@ -46,5 +46,9 @@
   <img src="https://raw.githubusercontent.com/ponugotiuma/ponugotiuma/output/github-snake.svg" alt="GitHub Contribution Snake" />
 </p>
 
+<p align="center">
+  <img src="game.gif" alt="GitHub Contribution Space Shooter">
+</p>
+
 <h3 align="center">🚀 AI-Powered Data Analyst | 📊 Data Analytics | 🤖 AI & Automation</h3>
 
