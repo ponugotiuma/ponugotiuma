@@ -1,15 +1,10 @@
 <h1 align="center">Hi 👋, I'm Uma Ponugoti</h1>
 <h3 align="center">Building AI-powered analytics, automation & data-driven solutions.</h3>
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=ponugotiuma&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile Views"/>
-</p>
-
 <h3 align="left">📫 How to reach me:</h3>
 
 <p align="left">
-  <a href="mailto:umaponugoti18@gmail.com">
-    <img src="https://img.shields.io/badge/Email-Contact%20Me-red?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+  <a href="mailto:umaponugoti18@gmail.com"> umaponugoti18@gmail.com
   </a>
 </p>
 
