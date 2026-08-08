@@ -14,12 +14,14 @@
 
 <a href="https://linkedin.com/in/uma ponugoti" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="uma ponugoti" height="30" width="40" /></a>
 
-<a href="https://www.hackerrank.com/uma ponugoti" target="_blank">
-<img src="https://cdn.simpleicons.org/hackerrank/00EA64" alt="HackerRank" width="40" height="40"/>
+<!-- HackerRank -->
+<a href="https://www.hackerrank.com/profile/umaponugoti18" target="_blank" rel="noreferrer">
+  <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerrank.svg" alt="HackerRank" height="30" width="40" />
 </a>
 
-<a href="https://leetcode.com/uma_p/" target="_blank">
-<img src="https://cdn.simpleicons.org/leetcode/FFA116" alt="LeetCode" width="40" height="40"/>
+<!-- LeetCode -->
+<a href="https://leetcode.com/u/Uma_Ponugoti/" target="_blank" rel="noreferrer">
+  <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="LeetCode" height="30" width="40" />
 </a>
 
 <a href="https://www.geeksforgeeks.org/profile/umaponujked" target="_blank" rel="noreferrer">
