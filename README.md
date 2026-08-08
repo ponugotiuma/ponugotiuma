@@ -42,10 +42,6 @@
   <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=ponugotiuma&layout=compact&hide_border=true" alt="Top Languages"/>
 </p>
 
-<h3 align="center">🐍 Contribution Snake</h3>
-
-<h3 align="center">🐍 Contribution Snake</h3>
-
 <p align="center">
   <img src="https://raw.githubusercontent.com/ponugotiuma/ponugotiuma/output/github-snake.svg" alt="GitHub Contribution Snake" />
 </p>
