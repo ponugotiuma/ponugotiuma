@@ -135,7 +135,7 @@ I enjoy working with data, building analytical solutions, experimenting with AI-
 
 ---
 
-# 🎮 Contribution Arcade
+<h2 align="center">🎮 Contribution Arcade</h2>
 
 <div align="center">
 
@@ -143,13 +143,21 @@ I enjoy working with data, building analytical solutions, experimenting with AI-
 
 <br>
 
-<img
-src="https://raw.githubusercontent.com/ponugotiuma/ponugotiuma/output/minesweeper-contribution-graph.svg"
-alt="Minesweeper contribution graph"
-width="95%"
-/>
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="https://raw.githubusercontent.com/ponugotiuma/ponugotiuma/output/minesweeper-contribution-graph-dark.svg">
 
-<br><br>
+  <source
+    media="(prefers-color-scheme: light)"
+    srcset="https://raw.githubusercontent.com/ponugotiuma/ponugotiuma/output/minesweeper-contribution-graph.svg">
+
+  <img
+    src="https://raw.githubusercontent.com/ponugotiuma/ponugotiuma/output/minesweeper-contribution-graph.svg"
+    alt="Minesweeper contribution graph">
+</picture>
+
+<br>
 
 <sub>💣 Every contribution is another move. Clear the board.</sub>
 
