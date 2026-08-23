@@ -167,6 +167,8 @@ I enjoy working with data, building analytical solutions, experimenting with AI-
      GITHUB STATISTICS
 ========================= -->
 
+# 📊 GitHub Activity
+
 <div align="center">
 
 <img
