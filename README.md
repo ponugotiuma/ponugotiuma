@@ -1,54 +1,214 @@
-<h1 align="center">Hi 👋, I'm Uma Ponugoti</h1>
-<h3 align="center">Building AI-powered analytics, automation & data-driven solutions.</h3>
+<!-- =========================
+     HEADER
+========================= -->
 
-<h3 align="left">📫 How to reach me:</h3>
+<div align="center">
 
-<p align="left">
-  <a href="mailto:umaponugoti18@gmail.com"> umaponugoti18@gmail.com
-  </a>
-</p>
+<h1>Hi 👋, I'm Uma Ponugoti</h1>
 
-<h3 align="left">🤝 Connect with me:</h3>
+<h3>AI-Powered Data Analyst • Data Analytics • AI & Automation</h3>
 
-<p align="left">
+<br>
 
-<a href="https://linkedin.com/in/uma ponugoti" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="uma ponugoti" height="30" width="40" /></a>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=2800&pause=900&color=4CAF50&center=true&vCenter=true&width=700&lines=Turning+Data+into+Insights;Building+AI-Powered+Analytics;Automating+Data+Workflows;Learning+by+Building"/>
 
-<!-- HackerRank -->
-<a href="https://www.hackerrank.com/profile/umaponugoti18" target="_blank" rel="noreferrer">
-  <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerrank.svg" alt="HackerRank" height="30" width="40" />
+</div>
+
+<!-- =========================
+     ABOUT ME
+========================= -->
+
+---
+
+## 👩‍💻 About Me
+
+I'm a **Computer Science Engineering student focused on Data Analytics, AI, and intelligent automation.**
+
+I enjoy working with data, building analytical solutions, experimenting with AI-powered workflows, and transforming raw information into **meaningful insights and practical solutions.**
+
+<div align="center">
+
+`Analyze` → `Understand` → `Automate` → `Build`
+
+</div>
+
+<!-- =========================
+     CONNECT
+========================= -->
+
+---
+
+## 🤝 Connect With Me
+
+<div align="center">
+
+<a href="mailto:umaponugoti18@gmail.com">
+  <img src="https://img.shields.io/badge/Email-umaponugoti18%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
 </a>
 
-<!-- LeetCode -->
-<a href="https://leetcode.com/u/Uma_Ponugoti/" target="_blank" rel="noreferrer">
-  <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="LeetCode" height="30" width="40" />
+ 
+
+<a href="https://www.linkedin.com/">
+  <img src="https://img.shields.io/badge/LinkedIn-Uma%20Ponugoti-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
 </a>
 
-<a href="https://www.geeksforgeeks.org/profile/umaponujked" target="_blank" rel="noreferrer">
-  <img align="center" src="https://cdn.simpleicons.org/geeksforgeeks" alt="GeeksforGeeks" height="30" width="40" />
+<br><br>
+
+<a href="https://www.hackerrank.com/profile/umaponugoti18">
+  <img src="https://img.shields.io/badge/HackerRank-umaponugoti18-00EA64?style=for-the-badge&logo=hackerrank&logoColor=white"/>
 </a>
-</p>
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/> </a> <a href="https://www.postgresql.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://pytorch.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" alt="pytorch" width="40" height="40"/> </a> <a href="https://scikit-learn.org/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit_learn" width="40" height="40"/> </a> <a href="https://seaborn.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" alt="seaborn" width="40" height="40"/> </a> <a href="https://www.tensorflow.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="tensorflow" width="40" height="40"/> </a> </p>
+ 
 
-<h3 align="left">📊 GitHub Statistics:</h3>
+<a href="https://leetcode.com/u/Uma_Ponugoti/">
+  <img src="https://img.shields.io/badge/LeetCode-Uma_Ponugoti-FFA116?style=for-the-badge&logo=leetcode&logoColor=white"/>
+</a>
+
+ 
+
+<a href="https://www.geeksforgeeks.org/profile/umaponujked">
+  <img src="https://img.shields.io/badge/GeeksforGeeks-umaponujked-2F8D46?style=for-the-badge&logo=geeksforgeeks&logoColor=white"/>
+</a>
+
+</div>
+
+<!-- =========================
+     TECH STACK
+========================= -->
+
+---
+
+# 🛠️ Languages & Tools
+
+### 🐍 Programming & Data
 
 <p align="center">
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=ponugotiuma&show_icons=true&hide_border=true&count_private=true" alt="GitHub Stats"/>
+  <img src="https://skillicons.dev/icons?i=python,mysql,postgres&theme=dark"/>
+</p>
+
+### 📊 Data Analytics
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black"/>
+  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/>
+  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white"/>
+</p>
+
+### 🤖 AI & Machine Learning
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=pytorch,tensorflow&theme=dark"/>
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=ponugotiuma&layout=compact&hide_border=true" alt="Top Languages"/>
+  <img src="https://img.shields.io/badge/Machine%20Learning-161B22?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Generative%20AI-161B22?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/AI%20Automation-161B22?style=for-the-badge"/>
 </p>
+
+### 🔧 Tools
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/ponugotiuma/ponugotiuma/output/github-snake.svg" alt="GitHub Contribution Snake" />
+  <img src="https://skillicons.dev/icons?i=git,github,vscode&theme=dark"/>
 </p>
 
-<p align="center">
-  <img src="game.gif" alt="GitHub Contribution Space Shooter">
-</p>
+<!-- =========================
+     PROBLEM SOLVING
+========================= -->
 
-<h3 align="center">🚀 AI-Powered Data Analyst | 📊 Data Analytics | 🤖 AI & Automation</h3>
+---
 
+# 🧩 Problem Solving
+
+<div align="center">
+
+<a href="https://www.hackerrank.com/profile/umaponugoti18">
+  <img src="https://img.shields.io/badge/HackerRank-umaponugoti18-00EA64?style=for-the-badge&logo=hackerrank&logoColor=white"/>
+</a>
+
+  
+
+<a href="https://leetcode.com/u/Uma_Ponugoti/">
+  <img src="https://img.shields.io/badge/LeetCode-Uma_Ponugoti-FFA116?style=for-the-badge&logo=leetcode&logoColor=white"/>
+</a>
+
+  
+
+<a href="https://www.geeksforgeeks.org/profile/umaponujked">
+  <img src="https://img.shields.io/badge/GeeksforGeeks-umaponujked-2F8D46?style=for-the-badge&logo=geeksforgeeks&logoColor=white"/>
+</a>
+
+<br><br>
+
+<sub>Practicing problem solving, SQL, algorithms and analytical thinking.</sub>
+
+</div>
+
+<!-- =========================
+     CONTRIBUTION ARCADE
+========================= -->
+
+---
+
+# 🎮 Contribution Arcade
+
+<div align="center">
+
+### `A SIDE QUEST FOR CONSISTENCY`
+
+<br>
+
+<img
+src="https://raw.githubusercontent.com/ponugotiuma/ponugotiuma/output/minesweeper-contribution-graph.svg"
+alt="Minesweeper contribution graph"
+width="95%"
+/>
+
+<br><br>
+
+<sub>💣 Every contribution is another move. Clear the board.</sub>
+
+</div>
+
+<!-- =========================
+     GITHUB STATISTICS
+========================= -->
+
+---
+
+# 📊 GitHub Statistics
+
+<div align="center">
+
+<img
+src="https://github-readme-stats-sigma-five.vercel.app/api?username=ponugotiuma&show_icons=true&hide_border=true&count_private=true"
+alt="GitHub Stats"
+/>
+
+<br><br>
+
+<img
+src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=ponugotiuma&layout=compact&hide_border=true"
+alt="Top Languages"
+/>
+
+</div>
+
+<!-- =========================
+     FOOTER
+========================= -->
+
+---
+
+<div align="center">
+
+### 🚀 AI-Powered Data Analyst
+
+`Data Analytics` • `Python` • `SQL` • `Power BI` • `AI` • `Automation`
+
+<br>
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=15&duration=3000&pause=1000&color=8B949E&center=true&vCenter=true&width=620&lines=Analyze.;Automate.;Build.;Keep+learning." />
+
+</div>
