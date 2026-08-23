@@ -174,18 +174,19 @@ I enjoy working with data, building analytical solutions, experimenting with AI-
 <div align="center">
 
 <img
-src="https://github-readme-stats-sigma-five.vercel.app/api?username=ponugotiuma&show_icons=true&hide_border=true&count_private=true"
+src="https://github-readme-stats.vercel.app/api?username=ponugotiuma&show_icons=true&hide_border=true&count_private=true"
 alt="GitHub Stats"
 />
 
 <br><br>
 
 <img
-src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=ponugotiuma&layout=compact&hide_border=true"
+src="https://github-readme-stats.vercel.app/api/top-langs/?username=ponugotiuma&layout=compact&hide_border=true"
 alt="Top Languages"
 />
 
 </div>
+
 
 <!-- =========================
      FOOTER
