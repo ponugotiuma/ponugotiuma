@@ -54,22 +54,6 @@ I enjoy working with data, building analytical solutions, experimenting with AI-
 
 <br><br>
 
-<a href="https://www.hackerrank.com/profile/umaponugoti18">
-  <img src="https://img.shields.io/badge/HackerRank-umaponugoti18-00EA64?style=for-the-badge&logo=hackerrank&logoColor=white"/>
-</a>
-
- 
-
-<a href="https://leetcode.com/u/Uma_Ponugoti/">
-  <img src="https://img.shields.io/badge/LeetCode-Uma_Ponugoti-FFA116?style=for-the-badge&logo=leetcode&logoColor=white"/>
-</a>
-
- 
-
-<a href="https://www.geeksforgeeks.org/profile/umaponujked">
-  <img src="https://img.shields.io/badge/GeeksforGeeks-umaponujked-2F8D46?style=for-the-badge&logo=geeksforgeeks&logoColor=white"/>
-</a>
-
 </div>
 
 <!-- =========================
