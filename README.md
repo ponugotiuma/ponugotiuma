@@ -167,26 +167,21 @@ I enjoy working with data, building analytical solutions, experimenting with AI-
      GITHUB STATISTICS
 ========================= -->
 
----
-
-# 📊 GitHub Statistics
-
 <div align="center">
 
-<img
-src="https://github-readme-stats.vercel.app/api?username=ponugotiuma&show_icons=true&hide_border=true&count_private=true"
-alt="GitHub Stats"
-/>
+  <img
+    src="https://github-readme-stats.vercel.app/api?username=ponugotiuma&show_icons=true&hide_border=true&count_private=true&include_all_commits=true&rank_icon=github"
+    alt="Uma Ponugoti's GitHub Statistics"
+  />
 
-<br><br>
+  <br><br>
 
-<img
-src="https://github-readme-stats.vercel.app/api/top-langs/?username=ponugotiuma&layout=compact&hide_border=true"
-alt="Top Languages"
-/>
+  <img
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=ponugotiuma&layout=compact&hide_border=true&langs_count=8"
+    alt="Uma Ponugoti's Top Languages"
+  />
 
 </div>
-
 
 <!-- =========================
      FOOTER
