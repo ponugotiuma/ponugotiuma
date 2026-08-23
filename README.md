@@ -170,7 +170,7 @@ I enjoy working with data, building analytical solutions, experimenting with AI-
 <div align="center">
 
 <img
-  src="https://github-readme-activity-graph.vercel.app/graph?username=115vyshnavi&bg_color=00000000&color=8B9DFF&line=8B9DFF&point=FFFFFF&area=true&hide_border=true"
+  src="https://github-readme-activity-graph.vercel.app/graph?username=ponugotiuma&bg_color=00000000&color=8B9DFF&line=8B9DFF&point=FFFFFF&area=true&hide_border=true"
   width="95%"
   alt="GitHub contribution activity"
 />
