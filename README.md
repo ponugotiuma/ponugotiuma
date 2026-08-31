@@ -167,17 +167,14 @@ I enjoy working with data, building analytical solutions, experimenting with AI-
      GITHUB STATISTICS
 ========================= -->
 
-# 📊 GitHub Activity
+# 📊 GitHub Statistics
 
-<div align="center">
-
-<img
-  src="https://github-readme-activity-graph.vercel.app/graph?username=ponugotiuma&bg_color=00000000&color=8B9DFF&line=8B9DFF&point=FFFFFF&area=true&hide_border=true"
-  width="95%"
-  alt="GitHub contribution activity"
-/>
-
-</div>
+<p align="center">
+  <img
+    src="https://streak-stats.demolab.com?user=ponugotiuma&theme=dark&hide_border=true"
+    alt="GitHub Streak Statistics"
+  />
+</p>
 
 <!-- =========================
      FOOTER
