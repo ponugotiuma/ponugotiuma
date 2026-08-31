@@ -1,0 +1,86 @@
+name: Update GitHub Contribution Stats
+
+on:
+
+  # Run automatically every day
+  schedule:
+    - cron: "30 18 * * *"
+
+  # Allows manual execution
+  workflow_dispatch:
+
+  # Optional: run when this workflow changes
+  push:
+    paths:
+      - "scripts/generate_stats.py"
+      - ".github/workflows/github-stats.yml"
+
+
+jobs:
+
+  update-stats:
+
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+
+      # ------------------------------------------
+      # Checkout repository
+      # ------------------------------------------
+
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+
+      # ------------------------------------------
+      # Setup Python
+      # ------------------------------------------
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+
+        with:
+          python-version: "3.x"
+
+
+      # ------------------------------------------
+      # Install dependency
+      # ------------------------------------------
+
+      - name: Install dependencies
+        run: |
+          pip install requests
+
+
+      # ------------------------------------------
+      # Generate statistics
+      # ------------------------------------------
+
+      - name: Generate GitHub statistics
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_USERNAME: ${{ github.repository_owner }}
+
+        run: |
+          python scripts/generate_stats.py
+
+
+      # ------------------------------------------
+      # Commit updated SVG
+      # ------------------------------------------
+
+      - name: Commit updated statistics
+        run: |
+
+          git config user.name "github-actions[bot]"
+
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add github-stats.svg
+
+          git diff --cached --quiet || git commit -m "Update GitHub contribution stats"
+
+          git push
