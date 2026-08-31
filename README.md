@@ -171,7 +171,7 @@ I enjoy working with data, building analytical solutions, experimenting with AI-
 
 <p align="center">
   <img
-    src="https://streak-stats.demolab.com?user=ponugotiuma&theme=dark&hide_border=true"
+    src="https://streak-stats.demolab.com?user=ponugotiuma&theme=dark&starting_year=2026&hide_border=true&border_radius=10"
     alt="GitHub Streak Statistics"
   />
 </p>
