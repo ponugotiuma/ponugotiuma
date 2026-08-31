@@ -1,0 +1,123 @@
+<svg width="1000" height="230"
+xmlns="http://www.w3.org/2000/svg">
+
+<rect width="1000" height="230" rx="20"
+fill="#0d1117"
+stroke="#30363d"/>
+
+<!-- TITLE -->
+
+<text x="500" y="40"
+font-family="Arial, sans-serif"
+font-size="18"
+font-weight="bold"
+fill="#ffffff"
+text-anchor="middle">
+GitHub Activity
+</text>
+
+
+<!-- DIVIDERS -->
+
+<line x1="333" y1="65" x2="333" y2="200"
+stroke="#30363d"/>
+
+<line x1="666" y1="65" x2="666" y2="200"
+stroke="#30363d"/>
+
+
+<!-- TOTAL CONTRIBUTIONS -->
+
+<text x="166" y="105"
+font-family="Arial, sans-serif"
+font-size="42"
+font-weight="bold"
+fill="#ffffff"
+text-anchor="middle">
+88
+</text>
+
+<text x="166" y="135"
+font-family="Arial, sans-serif"
+font-size="15"
+fill="#8b949e"
+text-anchor="middle">
+Total Contributions
+</text>
+
+<text x="166" y="160"
+font-family="Arial, sans-serif"
+font-size="12"
+fill="#6e7681"
+text-anchor="middle">
+All Time
+</text>
+
+
+<!-- CURRENT STREAK -->
+
+<text x="500" y="105"
+font-family="Arial, sans-serif"
+font-size="42"
+font-weight="bold"
+fill="#ffffff"
+text-anchor="middle">
+🔥 1
+</text>
+
+<text x="500" y="135"
+font-family="Arial, sans-serif"
+font-size="15"
+fill="#8b949e"
+text-anchor="middle">
+Current Streak
+</text>
+
+<text x="500" y="160"
+font-family="Arial, sans-serif"
+font-size="12"
+fill="#6e7681"
+text-anchor="middle">
+Consecutive Days
+</text>
+
+
+<!-- MONTHLY CONTRIBUTIONS -->
+
+<text x="833" y="105"
+font-family="Arial, sans-serif"
+font-size="42"
+font-weight="bold"
+fill="#ffffff"
+text-anchor="middle">
+81
+</text>
+
+<text x="833" y="135"
+font-family="Arial, sans-serif"
+font-size="15"
+fill="#8b949e"
+text-anchor="middle">
+Monthly Contributions
+</text>
+
+<text x="833" y="160"
+font-family="Arial, sans-serif"
+font-size="12"
+fill="#6e7681"
+text-anchor="middle">
+August 2026
+</text>
+
+
+<!-- FOOTER -->
+
+<text x="500" y="205"
+font-family="Arial, sans-serif"
+font-size="10"
+fill="#6e7681"
+text-anchor="middle">
+Automatically updated from GitHub contribution activity
+</text>
+
+</svg>
