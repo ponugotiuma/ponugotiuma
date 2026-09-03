@@ -146,15 +146,18 @@ I enjoy working with data, building analytical solutions, experimenting with AI-
 <picture>
   <source
     media="(prefers-color-scheme: dark)"
-    srcset="https://raw.githubusercontent.com/ponugotiuma/ponugotiuma/output/minesweeper-contribution-graph-dark.svg">
+    srcset="https://raw.githubusercontent.com/ponugotiuma/ponugotiuma/output/minesweeper-contribution-graph-dark.svg"
+  />
 
   <source
     media="(prefers-color-scheme: light)"
-    srcset="https://raw.githubusercontent.com/ponugotiuma/ponugotiuma/output/minesweeper-contribution-graph.svg">
+    srcset="https://raw.githubusercontent.com/ponugotiuma/ponugotiuma/output/minesweeper-contribution-graph.svg"
+  />
 
   <img
+    alt="Minesweeper Contribution Graph"
     src="https://raw.githubusercontent.com/ponugotiuma/ponugotiuma/output/minesweeper-contribution-graph.svg"
-    alt="Minesweeper contribution graph">
+  />
 </picture>
 
 <br>
