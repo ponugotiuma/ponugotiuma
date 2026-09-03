@@ -19,12 +19,30 @@ jobs:
     timeout-minutes: 20
 
     steps:
-      - name: Generate Minesweeper contribution graph
-        uses: abozanona/pacman-contribution-graph@main
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          games: "minesweeper"
 
+      # Generate Minesweeper with GitHub-style contribution colors
+      - name: Generate Minesweeper Contribution Graph
+        run: |
+          mkdir -p dist
+
+          npx pacman-contribution-graph \
+            --platform github \
+            --username "${{ github.repository_owner }}" \
+            --game minesweeper \
+            --gameTheme github \
+            --output dist/minesweeper-contribution-graph.svg
+
+      # Generate dark version with GitHub dark colors
+      - name: Generate Dark Minesweeper Contribution Graph
+        run: |
+          npx pacman-contribution-graph \
+            --platform github \
+            --username "${{ github.repository_owner }}" \
+            --game minesweeper \
+            --gameTheme github-dark \
+            --output dist/minesweeper-contribution-graph-dark.svg
+
+      # Push generated SVG files to output branch
       - name: Push Minesweeper animation to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
