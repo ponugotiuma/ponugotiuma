@@ -69,46 +69,50 @@ days.sort(key=lambda x: x["date"])
 # CURRENT STREAK
 # ---------------------------------------------------------
 
-today = date.today()
+from datetime import datetime, timezone, timedelta
 
+# GitHub contribution dates
 contribution_dates = {
     date.fromisoformat(day["date"])
     for day in days
     if day["count"] > 0
 }
 
-# GitHub contribution calendar may not yet contain today's
-# contribution depending on GitHub's update timing.
-# Start from today if it has a contribution; otherwise
-# check whether yesterday is the latest contribution day.
-
-if today in contribution_dates:
-    streak_day = today
-elif (today - timedelta(days=1)) in contribution_dates:
-    streak_day = today - timedelta(days=1)
-else:
-    streak_day = None
+# Use UTC because GitHub contribution dates are UTC-based
+today = datetime.now(timezone.utc).date()
 
 current_streak = 0
 
-if streak_day:
-    while streak_day in contribution_dates:
-        current_streak += 1
-        streak_day -= timedelta(days=1)
+# Find the most recent contribution day that is
+# today or yesterday.
+if today in contribution_dates:
+    streak_day = today
 
+elif (today - timedelta(days=1)) in contribution_dates:
+    streak_day = today - timedelta(days=1)
+
+else:
+    streak_day = None
+
+
+# Count consecutive contribution days
+if streak_day is not None:
+
+    while streak_day in contribution_dates:
+
+        current_streak += 1
+
+        streak_day -= timedelta(days=1)
 
 # ---------------------------------------------------------
 # CURRENT MONTH CONTRIBUTIONS
 # ---------------------------------------------------------
 
-current_year = today.year
-current_month = today.month
-
 monthly_contributions = sum(
     day["count"]
     for day in days
-    if date.fromisoformat(day["date"]).year == current_year
-    and date.fromisoformat(day["date"]).month == current_month
+    if date.fromisoformat(day["date"]).year == today.year
+    and date.fromisoformat(day["date"]).month == today.month
 )
 
 month_name = today.strftime("%B %Y")
