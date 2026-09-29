@@ -67,7 +67,7 @@ I enjoy working with data, building analytical solutions, experimenting with AI-
 ### 🐍 Programming & Data
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,mysql,postgres&theme=dark"/>
+  <img src="https://skillicons.dev/icons?i=python,mysql&theme=dark"/>
 </p>
 
 ### 📊 Data Analytics
