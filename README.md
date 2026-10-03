@@ -119,8 +119,8 @@ I enjoy working with data, building analytical solutions, experimenting with AI-
 
   
 
-<a href="https://www.geeksforgeeks.org/profile/umaponujked">
-  <img src="https://img.shields.io/badge/GeeksforGeeks-umaponujked-2F8D46?style=for-the-badge&logo=geeksforgeeks&logoColor=white"/>
+<a href="https://www.geeksforgeeks.org/profile/umaponugoti">
+  <img src="https://img.shields.io/badge/GeeksforGeeks-umaponugoti-2F8D46?style=for-the-badge&logo=geeksforgeeks&logoColor=white"/>
 </a>
 
 <br><br>
